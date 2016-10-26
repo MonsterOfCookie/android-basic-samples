@@ -8,20 +8,17 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.0-beta1'
+        classpath 'com.android.tools.build:gradle:2.2.0'
     }
 }
 
 dependencies {
-//    compile 'com.android.support:appcompat-v7:24.2.0'
-//    compile 'com.android.support:support-v4:23.0.0'
-    compile 'com.google.android.gms:play-services-base:9.4.0'
-    compile 'com.google.android.gms:play-services-games:9.4.0'
+    compile 'com.google.android.gms:play-services-games:9.8.0'
 }
 
 android {
     compileSdkVersion 24
-    buildToolsVersion '24.0.2'
+    buildToolsVersion '25'
 
     defaultConfig {
         minSdkVersion 16
